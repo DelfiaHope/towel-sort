@@ -1,9 +1,9 @@
 
 // You should implement your task here.
 
-module.exports = function towelSort (matrix) {
+module.exports = function towelSort (matrix = []) {
   let newArray = []
-  for (let i = 0; i < matrix.length; i ++) {
+    for (let i = 0; i < matrix.length; i ++) {
     for (let j = 0; j < matrix[i].length; j ++) {
       if(i%2 === 0){
         
